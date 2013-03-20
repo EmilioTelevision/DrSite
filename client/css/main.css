@@ -1,0 +1,39 @@
+/* CSS declarations go here */
+/* CSS RESET */
+
+50px { margin: 0;    padding: 0;    border: 0; outline: 0; font-weight: inherit; font-style: inherit; font-size: 100%; font-family: inherit; vertical-align: baseline; }
+/* remember to define focus styles! */
+:focus { outline: 0; }
+body, #bodyContainer { line-height: 1; }
+ol, ul { list-style: none; }
+/* tables still need 'cellspacing="0"' in the markup */
+table {    border-collapse: separate; border-spacing: 0; }
+caption, th, td { text-align: left;    font-weight: normal; }
+blockquote:before, blockquote:after, q:before, q:after { content: ""; }
+blockquote, q {    quotes: "" ""; }
+.clearBoth { clear:both; }
+body {
+width:100%;
+overflow-x: hidden;
+overflow-y: scroll;
+margin:0;
+}
+#container {
+margin: 0 auto;
+}
+
+p, h1, h2, a{
+font-family: 'PT Sans', sans-serif;
+-webkit-font-smoothing: antialiased;
+-moz-font-smoothing: antialiased;
+font-smoothing: antialiased;
+text-rendering: optimizeLegibility;
+}
+
+a:link, a{
+text-decoration:none;
+color:#28c9fd;
+}
+a:hover {
+color: #053761;
+}
