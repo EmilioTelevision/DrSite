@@ -1,0 +1,79 @@
+#surgeries {
+background:url('../../images/kindajean.png') repeat;
+height: 400px;
+border-top:1px solid #555;
+}
+#surgeries .top_shadow {
+height: 20px;
+margin-top: -20px;
+-webkit-box-shadow:0 15px 25px -8px #635F61;
+-moz-box-shadow: 0 15px 25px -8px #635F61;
+box-shadow: 0 15px 25px -8px #635F61;
+}
+.surgeries_container{
+width:960px;
+margin:0 auto;	
+}
+#surgeries .knee {
+margin-top: 10px;
+height: 450px;
+float:left;
+}
+#surgeries a:link, a {
+color:#11344F;
+text-decoration:underline;
+}
+#surgeries .knee_bio,.spine_bio, .shoulder_bio {
+
+width:238px;
+}
+#surgeries .knee_bio, .spine_bio, .shoulder_bio p{
+line-height:1.45;
+}
+#surgeries .knee_bio .knee_title, .shoulder_title {
+height:55px;
+width:238px;
+background-color: #1d4563; /* layer fill content */
+border-left:10px solid #5388ba; 
+text-align:center;
+line-height:1.7;
+color:white;
+}
+
+#surgeries .spine {
+height:450px;
+margin-top: 10px;
+float:left;
+margin-left: 116px;
+}
+
+#surgeries .spine_bio {
+
+
+}
+#surgeries .spine_title {
+border-left:10px solid #5388ba;
+height:55px;
+width:238px;
+background-color: #1d4563; /* layer fill content */ 
+text-align:center;
+line-height:1.7;
+color:white;
+}
+
+#surgeries .shoulder {
+float:right;
+margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

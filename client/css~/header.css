@@ -1,0 +1,125 @@
+#header {
+height: 100px;
+/* IE10 Consumer Preview */ 
+background-image: -ms-radial-gradient(center top, ellipse farthest-corner, #78B5DB 0%, #4B7EAD 100%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-radial-gradient(center top, ellipse farthest-corner, #78B5DB 0%, #4B7EAD 100%);
+
+/* Opera */ 
+background-image: -o-radial-gradient(center top, ellipse farthest-corner, #78B5DB 0%, #4B7EAD 100%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(radial, center top, 0, center top, 553, color-stop(0, #78B5DB), color-stop(1, #4B7EAD));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-radial-gradient(center top, ellipse farthest-corner, #78B5DB 0%, #4B7EAD 100%);
+
+/* W3C Markup, IE10 Release Preview */ 
+background-image: radial-gradient(ellipse farthest-corner at center top, #78B5DB 0%, #4B7EAD 100%);
+position: relative;
+}
+#headerInner {
+width:960px;
+margin: 0 auto;	
+padding-top: 20px;
+} 
+#header .grooves {
+position:absolute;
+bottom: 0px;
+width: 100%;
+}
+#header .top_groove {
+height: 1px;
+background: #234e84;
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,hsla(0,0%,0%,0)), color-stop(50%,hsla(0,0%,0%,.75)), color-stop(100%,hsla(0,0%,0%,0)));
+background: -webkit-linear-gradient(left, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,.75) 50%, hsla(0,0%,0%,0) 100%);
+background:    -moz-linear-gradient(left, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,.75) 50%, hsla(0,0%,0%,0) 100%);
+background:     -ms-linear-gradient(left, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,.75) 50%, hsla(0,0%,0%,0) 100%);
+background:      -o-linear-gradient(left, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,.75) 50%, hsla(0,0%,0%,0) 100%);
+background:         linear-gradient(left, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,.75) 50%, hsla(0,0%,0%,0) 100%);
+}
+#header .bottom_groove {
+height: 1px;
+background: #B8E3FF;
+background: -webkit-gradient(linear, 0 0, 68% 0, from(transparent), to(transparent), color-stop(50%, #B8E3FF));
+}
+#headerInner .logo {
+
+}
+#header .nav {
+float:right;
+margin-top: -49px;
+}
+#header .nav a, h2 {
+color: #fff; /* text color */
+font-size: 16px;
+font-weight: bold;
+text-shadow: 0 -1px 1px rgba(0,0,0,.71); /* drop shadow */
+
+}
+#header .nav .pages{
+float:left;
+margin-top: -46px;
+margin-right: 18px;
+}
+#header .nav .pages .about {
+float:left;
+width: 97px;
+height: 98px;
+text-align:center;
+}
+#header .nav .pages #nav li {
+float:left;
+width: 97px;
+height: 98px;
+text-align:center;
+}
+#header .nav .pages #nav li.about {
+background: url('../../images/Shape3.png') center top no-repeat;
+}
+#header .nav .pages #nav li.contact {
+background: url('../../images/Shape2.png') center top no-repeat;
+}
+#header .nav .pages #nav li:hover {
+background: url('../../images/hover.png') center top no-repeat;
+cursor:pointer;
+}
+#header .nav .pages #nav li:active {
+background: url('../../images/hover.png') center top no-repeat;
+}
+#header .nav .pages #nav li:active:hover {
+background: url('../../images/hover.png') center top no-repeat;
+cursor:pointer;
+opacity:.8;
+}
+#header .nav .pages a {
+line-height: 6;
+}
+
+#header .nav_button {
+width: 244px;
+height: 43px;
+float:right;
+margin-top:-5px;
+margin-right: -25px;
+background: url('../../images/Layer3.png') 0 0 no-repeat;
+}
+#header .nav_button:hover {
+background: url('../../images/Layer3.png') 0 -44px no-repeat;
+	
+cursor:pointer;
+}
+#header .nav_button:active {
+background: url('../../images/Layer3.png') 0 -88px no-repeat;	
+
+}
+.nav_button h2 {
+font-size:16px;
+color:white;
+text-align:center;
+}
+
+
+
+

@@ -1,0 +1,102 @@
+#credits_wrap {
+height: 528px;
+margin-top:-16px;
+background: url('../../images/batthern.png') repeat;
+width:100%;
+border-top:1px solid #1e4663;
+-webkit-box-shadow: inset 0 15px 25px -8px gray;
+-moz-box-shadow: inset 0 15px 25px -8px gray;		
+box-shadow: inset 0 15px 25px -8px gray;
+}
+#credits {
+width:960px;
+margin:0 auto;
+}
+#credits .header_one {
+width:304px;
+margin-top:20px;
+float:left;
+margin-left: -20px;
+}
+#credits .headline {
+width:328px;
+height:84px;
+background: url('../../images/Headercopy.png') no-repeat;
+}
+#credits .headline1 {
+width:328px;
+height:84px;
+background: url('../../images/Layer32.png') no-repeat;
+}
+#credits .headlineDoc {
+width: 331px;
+height: 276px;
+position: relative;
+margin-top: -178px;
+margin-right: 13px;
+background: url('../../images/doc3.png')no-repeat;
+}
+#credits a:link, a {
+color:#11344F;
+text-decoration:underline;
+display:block;
+}
+#credits p{
+line-height:1.4;
+margin-left: 27px;
+}
+#credits h1{
+color:white;
+text-indent: 104px;
+font-size:24px;
+line-height: 3.4;
+}
+#credits .header_two {
+margin-left: 31px;
+}
+#credits .header_two, .header_three {
+width:304px;
+margin-top:20px;
+float:left;
+}
+#credits .header_three .stats {
+margin-left: 29px;
+}
+#credits .header_three .stats h3{
+color: #7d7d7d; /* text color */
+font-family: "PT Sans", sans-serif;
+font-size: 18px;
+font-weight: bold;
+}
+#credits .header_three .stats p{
+color: #3d8fc3; /* text color */
+font-family: "PT Sans", sans-serif;
+font-size: 14px;
+font-weight: bold;
+margin-left: 15px;
+}
+#credits .header_three {
+margin-left: 28px;
+}
+#credits .links {
+width: 766px;
+height: 77px;
+margin: 0 auto;
+background: url('../../images/Shape7.png')no-repeat;
+}
+#credits .links li {
+display:inline;
+float:left;
+margin-top: 15px;
+margin-right: 58px;
+ -webkit-transition: all 0.5s ease-out; -moz-transition: all 0.5s ease; -o-transition: all 0.5s ease; 
+}
+#credits .links li:hover{
+-webkit-transform: rotate(-7deg); -moz-transform: rotate(-7deg); -o-transform: rotate(-7deg);  
+}
+
+
+
+
+
+
