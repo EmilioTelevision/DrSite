@@ -34,7 +34,29 @@ list-style: none;
 overflow-y: auto;
 overflow-x: auto;
 }
+.slider_images .left_blur {
+height:255px;
+width:100px;
+position:absolute;
+bottom:0px;
+z-index:1;
 
+/* Safari 5.1, Chrome 10+ */
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #5F96BD), color-stop(1,transparent));
+
+}
+.right_blur {
+height:255px;
+width:100px;
+position:absolute;
+bottom:0px;
+right: 24%;
+z-index:1;
+opacity:.2;
+/* Safari 5.1, Chrome 10+ */
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(0, transparent), color-stop(1, #5F96BD));
+
+}
 /* CSS to expand the image to fit inside colorbox */ 
 #gradient  #cboxPhoto { 
 width: 100%; 
@@ -93,6 +115,7 @@ width: 204px;
 background:url('../../images/more_sprite.png')  0 0 no-repeat;
 position:relative;
 top: 33px;
+z-index:2;
 }
 #gradient .more:hover {
 background: url('../../images/more_sprite.png') 0 -71px no-repeat;

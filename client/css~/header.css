@@ -22,7 +22,7 @@ position: relative;
 #headerInner {
 width:960px;
 margin: 0 auto;	
-padding-top: 20px;
+padding-top: 22px;
 } 
 #header .grooves {
 position:absolute;
@@ -49,7 +49,7 @@ background: -webkit-gradient(linear, 0 0, 68% 0, from(transparent), to(transpare
 }
 #header .nav {
 float:right;
-margin-top: -49px;
+margin-top: -51px;
 }
 #header .nav a, h2 {
 color: #fff; /* text color */
@@ -76,33 +76,37 @@ height: 98px;
 text-align:center;
 }
 #header .nav .pages #nav li.about {
-background: url('../../images/Shape3.png') center top no-repeat;
+background: url('../../images/header_sprite.png') 0 0 no-repeat;
 }
 #header .nav .pages #nav li.contact {
-background: url('../../images/Shape2.png') center top no-repeat;
+background: url('../../images/contact_sprite.png') 0 0 no-repeat;
 }
-#header .nav .pages #nav li:hover {
-background: url('../../images/hover.png') center top no-repeat;
-cursor:pointer;
-}
-#header .nav .pages #nav li:active {
-background: url('../../images/hover.png') center top no-repeat;
+#header .nav .pages #nav li.contact:hover, 
+#header .nav .pages #nav li.contact:active,
+#header .nav .pages #nav li.contact:active:hover {
+background: url('../../images/contact_sprite.png') 0 -100px no-repeat;
+} 
+#header .nav .pages #nav li.about:hover, 
+#header .nav .pages #nav li.about:active,
+#header .nav .pages #nav li.about:active:hover {
+background: url('../../images/header_sprite.png') 0 -100px no-repeat;
 }
 #header .nav .pages #nav li:active:hover {
-background: url('../../images/hover.png') center top no-repeat;
 cursor:pointer;
 opacity:.8;
+}
+#header .nav .pages #nav li.active {
+background: url('../../images/hover.png') center top no-repeat;
 }
 #header .nav .pages a {
 line-height: 6;
 }
-
 #header .nav_button {
 width: 244px;
 height: 43px;
 float:right;
 margin-top:-5px;
-margin-right: -25px;
+margin-right: -16px;
 background: url('../../images/Layer3.png') 0 0 no-repeat;
 }
 #header .nav_button:hover {
