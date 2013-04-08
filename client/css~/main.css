@@ -29,9 +29,9 @@ text-rendering: optimizeLegibility;
 }
 
 a:link, a{
-text-decoration:none;
-
+text-decoration:underline;
+color: #053761;
 }
 a:hover {
-color: #053761;
+color: #629bc6;
 }

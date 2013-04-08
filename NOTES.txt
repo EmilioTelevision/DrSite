@@ -1,0 +1,63 @@
+I included all the html and css pages. Below is how I have the main.html pages set up for each template.
+
+
+DrSite main.html
+
+<body>
+	
+	<div id="container">
+		{{>header}}
+		{{>slider}}
+		{{>credits}}
+		{{>surgeries}}
+		{{>footer}}
+	</div>
+</body>
+
+drContact main.html
+
+<body>
+	
+	<div id="container">
+		{{>header}}
+		{{>contact}}
+		
+	</div>
+	{{>footer}}
+</body>
+
+drAbout(a template page for the knee or spine) main.html
+
+<body>
+	
+	<div id="container">
+		{{>header}}
+		{{>about}}
+		
+	</div>
+	{{>footer}}
+</body>
+
+drPage(sports medicine page) main.html
+
+<body>
+	
+	<div id="container">
+		{{>header}}
+		{{>sports}}
+		
+	</div>
+	{{>footer}}
+</body>
+
+drTemplate(his resume) main.html
+
+<body>
+	
+	<div id="container">
+		{{>header}}
+		{{>resume}}
+		
+	</div>
+	{{>footer}}
+</body>
