@@ -31,6 +31,7 @@ background: url('../../images/Layer32.png') no-repeat;
 width: 331px;
 height: 276px;
 position: relative;
+z-index:2;
 margin-top: -178px;
 margin-right: 13px;
 background: url('../../images/doc3.png')no-repeat;

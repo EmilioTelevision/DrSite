@@ -3,7 +3,7 @@ Meteor.startup(function(){
 	 $('#slider1') 
 	  .anythingSlider({ 
 	   toggleControls : true, 
-	   theme          : 'metallic', 
+	   theme          : 'metallic',
 	   navigationFormatter : function(i, panel){ // add thumbnails as navigation links 
 	    return '<img src="../../images/white_' + ['circle', 'circle', 'circle'][i - 1] + '.png">'; 
 	   } 
