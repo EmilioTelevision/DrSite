@@ -26,6 +26,9 @@ margin-left: 110px;
 width: 16px;
 background-color: #11344F; /* layer fill content */
 
+;
+position: relative;
+top: 10px;
 }
 #footer .footer_contact a{
 color:white;
@@ -64,6 +67,7 @@ cursor:pointer;
 background: url('../../images/Layer34.png') no-repeat;
 height: 102px;
 width: 134px;
+box-shadow: 5px 5px 40px 5px gray;
 }
 #footer .map img {
 margin-left:29px;

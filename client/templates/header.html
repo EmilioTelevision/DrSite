@@ -1,28 +1,30 @@
 <template name="header">
 	<div id="header">
 		<div id="headerInner">
-				<div class="logo">
-					<a href="http://drsite.meteor.com/"><img src="../../images/small_logo.png" alt="Logo"></a>
-				</div>
+			
+			<div class="logo">
+				<a href="/"><img src="../../images/small_logo.png" alt="Logo"></a>
+			</div>
+			
+			
 			<div class="nav">
 				<div class="pages">
 					<ul id="nav">
-						<li class="about">
-							<a href="http://drAbout.meteor.com/">About</a>
-						</li>
-						<li class="contact">
-							<a class="active" href="http://drcontact.meteor.com/">Contact</a>
-						</li>
+						<li class="about {{active_about}}"><a href="/">Home</a></li>
+						<li class="contact {{active_contact}}"><a class="active" href="/contact">Contact</a></li>
 					</ul>
 				</div>
-				<div class="nav_button"><h2>Surgical Procedures</h2></div>
+				
+				<a class="nav_button" style="text-decoration:none;" href="/resume"><h2>Surgical Procedures</h2></a>
 			</div
+			
+			
 			<div style="clear:both"></div>
+			
 			<div class="grooves">
 				<div class="top_groove"></div>
 			    <div class="bottom_groove"></div>
 			</div>
+			
 		</div>
-		
-
 </template>

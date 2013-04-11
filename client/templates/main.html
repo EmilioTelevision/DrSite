@@ -4,13 +4,35 @@
 	<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
 </head>
 
-<body>
-	
+
+<body>	
 	<div id="container">
 		{{>header}}
-		{{>slider}}
-		{{>credits}}
-		{{>surgeries}}
+		{{renderPage}}
 		{{>footer}}
 	</div>
 </body>
+
+<template name="page_home">
+	{{>slider}}
+	{{>credits}}
+	{{>surgeries}}
+</template>
+
+<template name="page_contact">
+	{{>contact}}
+</template>
+
+<template name="page_resume">
+	{{>resume}}
+</template>
+
+
+<template name="page_sports">
+	{{>about}}
+</template>
+
+<template name="page_spine">
+	{{>about}}
+</template>
+
