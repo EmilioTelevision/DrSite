@@ -29,6 +29,7 @@ background-color: #11344F; /* layer fill content */
 ;
 position: relative;
 top: 10px;
+line-height: 1.4;
 }
 #footer .footer_contact a{
 color:white;
