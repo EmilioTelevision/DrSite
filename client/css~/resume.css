@@ -21,11 +21,11 @@ width:960px;
 margin:0 auto;
 padding-top: 15px;
 margin-top: 20px;
-padding-bottom: 20px;
 }
 .image {
 float:left;
 margin-right: 30px;
+margin-top:-20px;
 }
 .image p.specialty {
 text-align:center;
@@ -38,22 +38,18 @@ font-size:20px;
 text-align:center;
 margin-bottom:0px;
 }
-.section {
-width:920px;
-margin:0 auto;	
-}
 .section p {
 margin: 0;
-line-height: 1.2;	
+line-height: 1.5;	
 text-align: left;
-text-shadow: 1px 1px 1px gray;
+text-shadow:none;
 }
 .section h1 {
 color:rgb(142, 144, 145);
 text-shadow: 1px 1px 0px #000000;
 font-weight:bold;
 margin-bottom: 8px;
-text-align: left;
+text-align: center;
 }
 .section {
 margin-top:-20px;
@@ -61,6 +57,7 @@ margin-bottom: 20px;
 }
 .bio {
 display: inline;
+float:right;
 }
 .bio .line_groove {
 height: 1px;
@@ -78,7 +75,7 @@ border: 0;
 background: black;
 background: -webkit-gradient(linear, 0 0, 100% 0, from(white), to(white), color-stop(50%, black));
 width:920px;
-margin-top: 20px;
+margin-top: 58px;
 margin-bottom: 20px;
 }
 .education {

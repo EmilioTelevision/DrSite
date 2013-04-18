@@ -50,7 +50,20 @@ margin-left:119px;
 }
 #address {
 float:left;
-
+}
+.directions {
+position:relative;
+top:20px;
+}
+#locust {
+position:relative;
+top:-31px;	
+left:138px;
+}
+#mass {
+position:relative;
+top:-81px;
+left:297px;
 }
 #address .big_map {
 width:300px;
@@ -82,7 +95,7 @@ color:rgb(128, 128, 128);
 #contact-area {
 width: 600px;
 float: right;
-margin-right:-30px;
+margin-right:-59px;
 }
 #contact-area .field_input {
 width: 280px;
