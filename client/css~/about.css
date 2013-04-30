@@ -14,7 +14,6 @@ margin-top:20px;
 
 .image {
 float:left;
-margin-right: 30px;
 }
 .image img {
 border: 4px solid white;
@@ -37,7 +36,6 @@ font-weight:bold;
 margin-bottom: -9px;
 }
 .section {
-margin-top:-20px;
 }
 .bio {
 
@@ -68,4 +66,12 @@ box-shadow:         -6px 6px 7px rgba(50, 50, 50, 0.51);
 margin-top:-20px;
 float: left;
 width: 500px;
+}
+
+.section li {
+list-style: disc;   
+margin-left: -20px;
+}
+.section a {
+	font-size: 14px;
 }

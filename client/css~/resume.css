@@ -1,5 +1,4 @@
 #resume_wrap {
-height: 718px;
 background:url(../../images/batthern.png)repeat;
 width:100%;
 -webkit-box-shadow: inset 0 15px 25px -8px gray;
@@ -10,6 +9,7 @@ padding-top: 20px;
 }
 #resume_container {
 margin-top:20px;
+padding-bottom: 60px;
 }
 .section_wrap {
 background: rgba(255, 255, 255, 0.52);
@@ -24,8 +24,6 @@ margin-top: 20px;
 }
 .image {
 float:left;
-margin-right: 30px;
-margin-top:-20px;
 }
 .image p.specialty {
 text-align:center;
@@ -40,24 +38,28 @@ margin-bottom:0px;
 }
 .section p {
 margin: 0;
-line-height: 1.5;	
+line-height: 1.1;	
 text-align: left;
 text-shadow:none;
+font-size: 20px;
+text-shadow: 1px 1px 1px gray; 
 }
 .section h1 {
 color:rgb(142, 144, 145);
 text-shadow: 1px 1px 0px #000000;
 font-weight:bold;
 margin-bottom: 8px;
-text-align: center;
+text-align: left;
+margin-top: 0px;
 }
 .section {
-margin-top:-20px;
 margin-bottom: 20px;
 }
 .bio {
 display: inline;
 float:right;
+width: 590px;
+line-height: 1;
 }
 .bio .line_groove {
 height: 1px;

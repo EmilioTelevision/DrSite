@@ -40,14 +40,12 @@ margin-left:30px;
 float:right;
 position: relative;
 left: -100px;
-top: 20px;
 }
 #footer .footer_links .block {
 height:80px;
 width:16px;
 background-color: #11344F;
 margin-left:110px;
-margin-top:-19px;
 z-index: 1099;
 }
 #footer .footer_links a{
@@ -71,6 +69,7 @@ background: url('../../images/Layer34.png') no-repeat;
 height: 102px;
 width: 134px;
 box-shadow: 5px 5px 40px 5px gray;
+float: left;
 }
 #footer .map img {
 margin-left:29px;

@@ -4,7 +4,7 @@
 50px { margin: 0;    padding: 0;    border: 0; outline: 0; font-weight: inherit; font-style: inherit; font-size: 100%; font-family: inherit; vertical-align: baseline; }
 /* remember to define focus styles! */
 :focus { outline: 0; }
-body, #bodyContainer { line-height: 1; }
+body, #bodyContainer { line-height: 1.2; }
 ol, ul { list-style: none; }
 /* tables still need 'cellspacing="0"' in the markup */
 table {    border-collapse: separate; border-spacing: 0; }
@@ -13,7 +13,9 @@ blockquote:before, blockquote:after, q:before, q:after { content: ""; }
 blockquote, q {    quotes: "" ""; }
 .clearBoth { clear:both; }
 
-
+img {
+	border: none;
+}
 
 
 body {

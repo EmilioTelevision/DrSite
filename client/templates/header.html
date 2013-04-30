@@ -3,7 +3,7 @@
 		<div id="headerInner">
 			
 			<div class="logo">
-				<a href="/"><img src="../../images/small_logo.png" alt="Logo"></a>
+				<a href="/"><img src="/images/small_logo.png" alt="Logo"></a>
 			</div>
 			
 			
@@ -15,7 +15,17 @@
 					</ul>
 				</div>
 				
-				<a class="nav_button" style="text-decoration:none;" href="/resume"><h2>Surgical Procedures</h2></a>
+				{{#constant}}
+					<a class="nav_button" style="text-decoration:none;" href="#"><h2>Surgical Procedures</h2></a>
+				{{/constant}}
+				<div class="dropdown" style="display:none;">
+					<ul class="drop_inner">
+						<li class="one"><a href="/spine">Spine</a></li>
+						<li class="two"><a href="/sports-medicine#knee">Knee</a></li>
+						<li class="three"><a href="/sports-medicine#shoulder">Shoulder</a></li>
+						<li class="four"><a href="/about">About Dr. Goodwin</a></li>
+					</ul>
+				</div>
 			</div
 			
 			
